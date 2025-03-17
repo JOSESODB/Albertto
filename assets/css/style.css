@@ -145,32 +145,36 @@ a:hover {
 }
 
 
-/* Styling the top right corner header */
-#myheader {
-    position: fixed;
-    top: 10px;
-    right: 10px;
+
+#myheader2 {
+    
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 5px;
     z-index: 1000;
 }
 
-#logo {
-    width: 40px; /* Adjust the logo size */
-    height: auto;
-    margin-right: 10px; /* Spacebetween the logo and the visitor count */
-}
-
-#visitor-count {
+#visitor-count2 {
     color: white;
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
 
-#count {
+#count2 {
     font-weight: bold;
     font-size: 18px;
-}
+} 
+
+    /* Hide the visitor count on small and medium screens */
+    @media (max-width: 768px) {
+        #visitor-count {
+            display: none;
+        }
+    }
+    @media (min-width: 768px) {
+        #visitor-count2 {
+            display: none;
+        }
+    }
