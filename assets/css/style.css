@@ -107,3 +107,70 @@ a:hover {
     background-color: #2F1917;
     color: white;
 }
+
+
+/* Styling the ticker */
+#ticker {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+#ticker-content {
+    display: flex;
+    animation: scroll-left 15s linear infinite;
+}
+
+#ticker-content span {
+    padding-right: 100%;
+    display: inline-block;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Styling the top right corner header */
+#myheader {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+#logo {
+    width: 40px; /* Adjust the logo size */
+    height: auto;
+    margin-right: 10px; /* Spacebetween the logo and the visitor count */
+}
+
+#visitor-count {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#count {
+    font-weight: bold;
+    font-size: 18px;
+}

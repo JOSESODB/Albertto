@@ -174,3 +174,54 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// Function to get current date, time, and location
+function updateTicker() {
+  const date = new Date();
+  const time = date.toLocaleTimeString();
+  const currentDate = date.toLocaleDateString();
+
+  // Using geolocation API to get current location
+  if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(position) {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+
+          // Get location name using reverse geocoding API (for example: OpenWeatherMap or Google Maps API)
+          const location = `Lat: ${latitude.toFixed(2)}, Lon: ${longitude.toFixed(2)}`;
+          const tickerText = `Date: ${currentDate} | Time: ${time} | Location: ${location}`;
+
+          // Display the text in the ticker
+          document.getElementById("ticker-content").textContent = tickerText;
+      });
+  } else {
+      document.getElementById("ticker-content").textContent = "Geolocation is not supported by this browser.";
+  }
+}
+
+// Update the ticker every second
+setInterval(updateTicker, 1000);
+updateTicker(); // Initial call to populate the ticker immediately
+
+
+// Simulate a visitor count by increasing it each time the page loads
+let visitorCount = 0;
+
+// You can store the count in localStorage to keep the count persistent across page reloads
+if(localStorage.getItem('visitorCount')) {
+    visitorCount = parseInt(localStorage.getItem('visitorCount'));
+} else {
+    // First visit
+    localStorage.setItem('visitorCount', visitorCount);
+}
+
+// Function to update the visitor count
+function updateVisitorCount() {
+    visitorCount += 1;
+    localStorage.setItem('visitorCount', visitorCount);
+    document.getElementById('count').textContent = visitorCount;
+}
+
+// Run the function to update the visitor count
+updateVisitorCount();
+
