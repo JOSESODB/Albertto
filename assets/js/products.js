@@ -57,13 +57,13 @@
             </div>
              <div class="modal fade" id="${product.name.replace(/\s+/g, '')}2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                   <div class="modal-dialog modal-dialog-centered  modal-lg">
-                    <div class="modal-content">
+                    <div class="modal-content mb-5">
                       <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Enter your details to enable us deliver your order</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
-                        <form>
+                      <div class="modal-body mb-5">
+                        <form class="mb-5">
                           <div class="mb-3">
                             <label for="fullname" class="form-label">full name</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -87,7 +87,8 @@
                           <div class="alert alert-dark me-auto" role="alert">
                             order is to be paid on delivery
                           </div>
-                          <button type="button" class="btn btn-primary"  data-bs-target="#${product.name.replace(/\s+/g, '')}3" data-bs-toggle="modal">Proceed</button>
+                          <button type="button" class="btn btn-primary mb-5"  data-bs-target="#${product.name.replace(/\s+/g, '')}3" data-bs-toggle="modal">Proceed</button>
+                          <br><br>
                         </form>
                       </div>
                       
@@ -153,13 +154,13 @@
             </div>
              <div class="modal fade" id="${product.name.replace(/\s+/g, '')}2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                   <div class="modal-dialog modal-dialog-centered  modal-lg">
-                    <div class="modal-content">
+                    <div class="modal-content class="mb-5">
                       <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Enter your details to enable us deliver your order</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
-                        <form>
+                      <div class="modal-body mb-5">
+                        <form class="mb-5">
                           <div class="mb-3">
                             <label for="fullname" class="form-label">full name</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -183,7 +184,7 @@
                           <div class="alert alert-dark me-auto" role="alert">
                             order is to be paid on delivery
                           </div>
-                          <button type="button" class="btn btn-primary"  data-bs-target="#${product.name.replace(/\s+/g, '')}3" data-bs-toggle="modal">Proceed</button>
+                          <button type="button" class="btn btn-primary mb-5"  data-bs-target="#${product.name.replace(/\s+/g, '')}3" data-bs-toggle="modal">Proceed</button>
                         </form>
                       </div>
                       
@@ -249,13 +250,13 @@
             </div>
              <div class="modal fade" id="${product.name.replace(/\s+/g, '')}2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                   <div class="modal-dialog modal-dialog-centered  modal-lg">
-                    <div class="modal-content">
+                    <div class="modal-content class="mb-5">
                       <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Enter your details to enable us deliver your order</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
-                        <form>
+                      <div class="modal-body mb-5">
+                        <form class="mb-5">
                           <div class="mb-3">
                             <label for="fullname" class="form-label">full name</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -350,8 +351,8 @@
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Enter your details to enable us deliver your order</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
-                        <form>
+                      <div class="modal-body class="mb-5">
+                        <form class="mb-5">
                           <div class="mb-3">
                             <label for="fullname" class="form-label">full name</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -449,8 +450,8 @@
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Enter your details to enable us deliver your order</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
-                        <form>
+                      <div class="modal-body mb-5">
+                        <form class="mb-5">
                           <div class="mb-3">
                             <label for="fullname" class="form-label">full name</label>
                             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
