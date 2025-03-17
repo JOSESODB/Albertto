@@ -1,0 +1,263 @@
+[
+    {
+        "name": "Hublot",
+        "image": "assets/img/menu/menu-item-1.png",
+        "description": "Classic Fusion",
+        "price": "$5.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Jaegar-LeCoultre",
+        "image": "assets/img/menu/menu-item-1.1.png",
+        "description": "Reverso $10K",
+        "price": "$14.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "MICHAEL KORS",
+        "image": "assets/img/menu/menu-item-3.png",
+        "description": "MK5317",
+        "price": "$8.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "CASIO",
+        "image": "assets/img/menu/menu-item-4.png",
+        "description": "A158WAE",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Michael Kors",
+        "image": "assets/img/menu/menu-item-1.4.png",
+        "description": "Camille MK5720",
+        "price": "$12.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Rolex Daytona",
+        "image": "assets/img/menu/menu-item-6.png",
+        "description": "Oyster perpetual",
+        "price": "$9.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "HUBLOT",
+        "image": "assets/img/menu/menu-item-1.png",
+        "description": "Classic Fusion",
+        "price": "$17.10k",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "MICHAEL KORS",
+        "image": "assets/img/menu/menu-item-3.png",
+        "description": "MK5317",
+        "price": "$300",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "CASIO",
+        "image": "assets/img/menu/menu-item-4.png",
+        "description": "A158WAE",
+        "price": "$78.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "AP",
+        "image": "assets/img/menu/menu-item-5.png",
+        "description": "Royal Oak Offshore",
+        "price": "$33.5k",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Rolex Daytona",
+        "image": "assets/img/menu/menu-item-6.png",
+        "description": "Oyster perpetual",
+        "price": "$67.00k",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "luxury-watch"
+    },
+    {
+        "name": "Jaegar-LeCoultre",
+        "image": "assets/img/menu/menu-item-1.1.png",
+        "description": "Reverso",
+        "price": "$10K",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Jaegar-LeCoultre",
+        "image": "assets/img/menu/menu-item-1.2.png",
+        "description": "Master Ultra Thin",
+        "price": "$27.80k",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Patek Philippe",
+        "image": "assets/img/menu/menu-item-1.3.png",
+        "description": "5961P Compilations",
+        "price": "$175.570k",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Michael Kors",
+        "image": "assets/img/menu/menu-item-1.4.png",
+        "description": "Camille MK5720",
+        "price": "$550",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Montblanc",
+        "image": "assets/img/menu/menu-item-1.5.png",
+        "description": "Traditional Automatic",
+        "price": "$2.078k",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Hugo Boss",
+        "image": "assets/img/menu/menu-item-1.6.png",
+        "description": "1513371",
+        "price": "$235.00",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "vintage-watch"
+    },
+    {
+        "name": "Serie 3",
+        "image": "assets/img/menu/menu-item-2.1.png",
+        "description": "Apple",
+        "price": "$199",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Google",
+        "image": "assets/img/menu/menu-item-2.2.png",
+        "description": "Pixel 3",
+        "price": "$415",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "ASUS",
+        "image": "assets/img/menu/menu-item-2.3.png",
+        "description": "Zenwatch 3",
+        "price": "$299",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Galaxy",
+        "image": "assets/img/menu/menu-item-2.4.png",
+        "description": "Ultra Blue",
+        "price": "$419.00",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "ULTRA",
+        "image": "assets/img/menu/menu-item-2.5.png",
+        "description": "Apple series",
+        "price": "$699",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "ZeWatch2 Sony",
+        "image": "assets/img/menu/menu-item-2.6.png",
+        "description": "MyKronoz",
+        "price": "$9.95",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "smart-watch"
+    },
+    {
+        "name": "Vintage coloured",
+        "image": "assets/img/menu/menu-item-3.1.png",
+        "description": "Round Class",
+        "price": "$295",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "SEIKO",
+        "image": "assets/img/menu/menu-item-3.2.png",
+        "description": "Wall clock",
+        "price": "$434",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Flame Mahogany",
+        "image": "assets/img/menu/menu-item-3.3.png",
+        "description": "",
+        "price": "$7506.36",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Oyster perpetual",
+        "image": "assets/img/menu/menu-item-3.4.png",
+        "description": "Rolex",
+        "price": "$179",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "SOLIMO",
+        "image": "assets/img/menu/menu-item-3.5.png",
+        "description": "single ring metal",
+        "price": "$477",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    },
+    {
+        "name": "Oyster perpetual",
+        "image": "assets/img/menu/menu-item-3.6.png",
+        "description": "Red Black Dial",
+        "price": "$159",
+        "quantity": 50,
+        "technology": "Analog",
+        "category": "clock"
+    }
+]
